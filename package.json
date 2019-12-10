@@ -1,0 +1,44 @@
+{
+  "name": "project_surf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolodumurSN/Project_Surf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolodumurSN/Project_Surf/issues"
+  },
+  "homepage": "https://github.com/VolodumurSN/Project_Surf#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-jpegtran": "^6.0.0",
+    "panini": "^1.6.3",
+    "slick-carousel": "^1.8.1"
+  },
+  "browserslist": [
+    "last 8 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
