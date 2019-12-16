@@ -1,0 +1,12 @@
+@import 'base/variables';
+@import 'base/animations';
+@import 'base/media';
+
+
+@import 'libs/bootstrap-reboot.min';
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
