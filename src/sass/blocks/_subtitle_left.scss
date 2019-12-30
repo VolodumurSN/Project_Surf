@@ -1,0 +1,25 @@
+.sub-left{
+    position: relative;
+    padding-left: 103px;
+
+    display: inline-block;
+
+    font-size: 22px;
+    letter-spacing: 7.33px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.5;
+
+    &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+
+        width: 80px;
+        height: 1px;
+        
+        background-color: #fff;
+    }
+}

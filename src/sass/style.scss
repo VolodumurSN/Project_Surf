@@ -4,9 +4,30 @@
 
 
 @import 'libs/bootstrap-reboot.min';
+@import 'libs/slick';
+
+
+@import 'blocks/header';
+@import 'blocks/subtitle_left';
+
+
+html{
+    box-sizing: border-box;
+}
 
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
 }
