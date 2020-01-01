@@ -1,6 +1,52 @@
-header{
+.header{
     position: relative;
     height: 100vh;
+    
+    &__title{
+        position: absolute;
+        z-index: 1;
+    
+        max-width: 467px;
+        
+        font-size: 200px;
+        font-weight: 800;
+        line-height: 156px;
+        text-transform: uppercase;
+    
+        opacity: 0.07;
+    }
+
+    &__logo{
+        position: absolute;
+        top: 110px;
+        left: -50px;
+        z-index: 5;
+
+        font-size: 60px;
+        font-weight: 800;
+        word-spacing: -8px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        transform: rotate(270deg);
+
+        span{
+            font-weight: 300;
+        }
+
+        &:before{
+            content: "";
+            position: absolute;
+            left: 102px;
+            top: -37px;
+            z-index: -1;
+            
+            width: 185px;
+            height: 173px;
+            
+            background-color: $green;
+        }
+    }
 }
 
 .header-slider__item{
@@ -16,7 +62,6 @@ header{
 
     text-align: right;
     text-transform: uppercase;
-    color: #fff;
 
     &__title{
         margin-bottom: 48px;
@@ -65,8 +110,6 @@ header{
     max-width: 920px;
     width: 100%;
 
-    color: #fff;
-
     .slick-current{
         .dots-box{
             border-top: 4px solid $green;
@@ -86,7 +129,9 @@ header{
     height: 28px;
     padding-top: 6px;
 
-    border-top: 4px solid #fff;
+    border-top: 4px solid $white;
+
+    cursor: pointer;
 
     &__number{
         font-size: 24px;

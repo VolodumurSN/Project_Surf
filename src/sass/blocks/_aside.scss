@@ -1,0 +1,53 @@
+.aside{
+    position: absolute;
+    top: 165px;
+    left: 0;
+    z-index: 4;
+
+    display: block;
+    width: 173px;
+    padding-top: 195px;
+
+    text-align: center;
+
+    border-right: 1px solid rgba($white, .25);
+
+    &__search{
+        width: 100%;
+        max-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    &__date{
+        display: block;
+
+        font-size: 72px;
+        line-height: 70px;
+        font-weight: 800;
+        
+        span{
+            display: block;
+            margin-bottom: 22px;
+
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 300;
+            letter-spacing: 1.4px;
+        }
+    }
+
+    &__location{
+        display: inline-block;
+
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 1.05px;
+        line-height: 12px;
+        
+        svg{
+            width: 11px;
+            height: 14px;
+        }
+    }
+
+}

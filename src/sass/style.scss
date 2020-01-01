@@ -1,14 +1,9 @@
 @import 'base/variables';
 @import 'base/animations';
-@import 'base/media';
 
 
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/slick';
-
-
-@import 'blocks/header';
-@import 'blocks/subtitle_left';
 
 
 html{
@@ -21,14 +16,35 @@ html{
     box-sizing: inherit;
 }
 
-
 body{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    color: $white;
+    background-color: #000;
 }
 
 a{
     display: inline-block;
     text-decoration: none;
+    color: $white;
+    &:hover{
+        text-decoration: none;
+        color: $white;
+    }
 }
+
+li,
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/subtitle_left';
+@import 'blocks/nav';
+@import 'blocks/aside';
+
+@import 'base/media';
