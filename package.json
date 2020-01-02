@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/VolodumurSN/Project_Surf#readme",
   "devDependencies": {
+    "animate.css": "^3.7.2",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
